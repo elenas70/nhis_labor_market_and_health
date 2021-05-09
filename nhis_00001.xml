@@ -1,0 +1,1968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ipums-ddi-xslt.xsl"?>
+<codeBook ID="ddi2-727a5800-e01d-0138-e094-0242ac190006-nhis_00001.dat-nhis.ipums.org" version="2.5" xmlns="ddi:codebook:2_5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>Codebook for an Integrated Health Interview Series Data Extract</titl>
+        <subTitl>DDI 2.5 metadata describing the extract file  'nhis_00001.dat'</subTitl>
+        <IDNo>ddi2-727a5800-e01d-0138-e094-0242ac190006-nhis_00001.dat-nhis.ipums.org</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="University of Minnesota">Minnesota Population Center</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="MPC" affiliation="University of Minnesota" role="Documentation">Minnesota Population Center</producer>
+        <prodDate date="2021-05-07">May 7, 2021</prodDate>
+        <prodPlac>Minnesota Population Center, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</prodPlac>
+      </prodStmt>
+      <distStmt>
+        <contact URI="http://pop.umn.edu" affiliation="University of Minnesota">Minnesota Population Center</contact>
+      </distStmt>
+    </citation>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>User Extract nhis_00001.dat</titl>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="University of Minnesota">Minnesota Population Center</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="MPC" affiliation="University of Minnesota" role="Documentation">Minnesota Population Center</producer>
+        <prodDate date="2021-05-07">May 7, 2021</prodDate>
+        <prodPlac>Minnesota Population Center, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</prodPlac>
+      </prodStmt>
+      <distStmt>
+        <contact URI="http://pop.umn.edu" affiliation="University of Minnesota">Minnesota Population Center</contact>
+      </distStmt>
+      <serStmt>
+        <serName abbr="nhis">IPUMS NHIS</serName>
+        <serInfo>DOI:10.18128/D070.V6.4</serInfo>
+      </serStmt>
+      <verStmt>
+        <version date="2021-05-07"/>
+      </verStmt>
+    </citation>
+    <stdyInfo>
+      <subject>
+        <topcClas vocab="IPUMS">Technical Household Variables -- HOUSEHOLD</topcClas>
+        <topcClas vocab="IPUMS">Technical Person Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Core Demographic Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Education Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Work Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Material Hardship Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Adult Mental Health Variables -- PERSON</topcClas>
+      </subject>
+      <sumDscr ID="sdatref-2397">
+        <timePrd date="1997" event="single">1997</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2398">
+        <timePrd date="1998" event="single">1998</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2399">
+        <timePrd date="1999" event="single">1999</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2400">
+        <timePrd date="2000" event="single">2000</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2401">
+        <timePrd date="2001" event="single">2001</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2402">
+        <timePrd date="2002" event="single">2002</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2403">
+        <timePrd date="2003" event="single">2003</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2404">
+        <timePrd date="2004" event="single">2004</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2405">
+        <timePrd date="2005" event="single">2005</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2406">
+        <timePrd date="2006" event="single">2006</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2407">
+        <timePrd date="2007" event="single">2007</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2408">
+        <timePrd date="2008" event="single">2008</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2409">
+        <timePrd date="2009" event="single">2009</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2415">
+        <timePrd date="2010" event="single">2010</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2416">
+        <timePrd date="2011" event="single">2011</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2417">
+        <timePrd date="2012" event="single">2012</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2418">
+        <timePrd date="2013" event="single">2013</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2419">
+        <timePrd date="2014" event="single">2014</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2438">
+        <timePrd date="2015" event="single">2015</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2439">
+        <timePrd date="2016" event="single">2016</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2440">
+        <timePrd date="2017" event="single">2017</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2441">
+        <timePrd date="2018" event="single">2018</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  1997 NHIS
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  1998 NHIS
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  1999 NHIS
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2000 NHIS
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2001 NHIS
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2002 NHIS
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2003 NHIS
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2004 NHIS
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2005 NHIS
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2006 NHIS
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2007 NHIS
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2008 NHIS
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2009 NHIS
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2010 NHIS
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2011 NHIS
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2012 NHIS
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2013 NHIS
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2014 NHIS
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2015 NHIS
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2016 NHIS
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2017 NHIS
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2018 NHIS
+]]></notes>
+    </stdyInfo>
+    <dataAccs>
+      <useStmt>
+        <confDec required="yes"><![CDATA[The Public Health Service Act (Section 308 (d)) provides that the data collected by the National Center for Health Statistics (NCHS), Centers for Disease Control and Prevention (CDC), may be used only for the purpose of health statistical reporting and analysis. Any effort to determine the identity of any reported case is prohibited by this law. NCHS does all it can to assure that the identity of data subjects cannot be disclosed. All direct identifiers, as well as any characteristics that might lead to identification, are omitted from the data files. Any intentional identification or disclosure of a person or establishment violates the assurances of confidentiality given to the providers of the information. 
+
+Therefore, users will: 
+
+Use the data in these data files for statistical reporting and analysis only. 
+
+Make no use of the identity of any person or establishment discovered inadvertently and advise the Director, NCHS, of any such discovery (301-458-4500). 
+
+Not link these data files with individually identifiable data from other NCHS or non-NCHS data files. 
+
+By using these data, you signify your agreement to comply with the above-stated statutorily-based requirements. ]]></confDec>
+        <contact URI="http://www.nhis.ipums.org/" affiliation="Minnesota Population Center">Integrated Health Interview Series</contact>
+        <citReq><![CDATA[Publications and research reports based on the NHIS database must cite it appropriately.  The citation is as follows:
+
+Lynn A. Blewett,  Julia A. Rivera Drew,  Miriam L. King and Kari C.W. Williams. IPUMS Health  Surveys: National Health Interview Survey, Version 6.4 [dataset]. Minneapolis, MN: IPUMS, 2019. https://doi.org/10.18128/D070.V6.4
+
+If possible, citations should also include the URL for the NHIS site:  http://www.nhis.ipums.org.
+
+Please see http://www.nhis.ipums.org/nhis/citation.shtml for precise formatting of the citation.]]></citReq>
+        <conditions><![CDATA[The Public Health Service Act (Section 308 (d)) provides that the data collected by the National Center for Health Statistics (NCHS), Centers for Disease Control and Prevention (CDC), may be used only for the purpose of health statistical reporting and analysis. Any effort to determine the identity of any reported case is prohibited by this law. NCHS does all it can to assure that the identity of data subjects cannot be disclosed. All direct identifiers, as well as any characteristics that might lead to identification, are omitted from the data files. Any intentional identification or disclosure of a person or establishment violates the assurances of confidentiality given to the providers of the information. 
+
+Therefore, users must: 
+
+Use the data in these data files for statistical reporting and analysis only. 
+
+Make no use of the identity of any person or establishment discovered inadvertently and advise the Director, NCHS, of any such discovery (301-458-4500). 
+
+Not link these data files with individually identifiable data from other NCHS or non-NCHS data files. 
+
+By using these data, you signify your agreement to comply with the above-stated statutorily-based requirements. 
+
+Furthermore, users of NHIS data must agree to abide by the conditions of use. Users must agree to the following conditions:
+  
+  
+(1) Use the data in these data files for statistical reporting and analysis only 
+
+(2) Make no use of the identity of any person or establishment discovered inadvertently and advise the Director of NCHS of any such discovery (301-458-4500) 
+
+(3) Do not link these data with individually-identifiable data from NCHS or non-NCHS data files 
+
+(4) No fees may be charged for use or distribution of the data.  All persons are granted a limited license to use and distribute these data, but you may not charge a fee for the data if you distribute them to others. 
+
+(5) Cite the NHIS appropriately.  Publications and research reports based on the database must cite it appropriately.  Please see http://www.nhis.ipums.org/nhis/citation.shtml
+
+(6) NHIS cannot be used to study small geographic areas.  The smallest geographical areas identified in the NHIS are regions (groups of states) and a limited number of metropolitan areas.
+
+(7) This system provides individual-level data only.  The NHIS Data Extraction System will not produce tables. You will need to use a statistical software package, such as Stata, SAS, or SPSS, to analyze the downloaded data.  Alternatively, you may use the NHIS-SDA tabulator to produce tables online, without making a data extract.]]></conditions>
+        <disclaimer>The user of the data acknowledges that the original collector of the data, the authorized distributor of the data, and the relevant funding agency bear no responsibility for use of the data or for interpretations or inferences based upon such uses.</disclaimer>
+      </useStmt>
+    </dataAccs>
+    <notes><![CDATA[User-provided description:  Employment and mental health, 1997-2018]]></notes>
+  </stdyDscr>
+  <fileDscr ID="ExtractData">
+    <fileTxt>
+      <fileName>nhis_00001.dat</fileName>
+      <fileCont>Microdata records</fileCont>
+      <fileStrc type="rectangular"/>
+      <fileType charset="ISO-8859-1">ISO-8859-1 data file</fileType>
+      <format>fixed length fields</format>
+      <filePlac>Minnesota Population Center, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</filePlac>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr>
+    <var ID="YEAR" dcml="0" files="ExtractData" intrvl="contin" name="YEAR">
+      <location EndPos="4" StartPos="1" width="4"/>
+      <labl>Survey year</labl>
+      <txt><![CDATA[YEAR is a four-digit variable reporting the calendar year (e.g., 2003) the survey was conducted and the data were collected. YEAR indicates the survey year reported on the household record.]]></txt>
+      <codInstr><![CDATA[This is a 4-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Household Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="SERIAL" dcml="0" files="ExtractData" intrvl="contin" name="SERIAL">
+      <location EndPos="10" StartPos="5" width="6"/>
+      <labl>Sequential Serial Number, Household Record</labl>
+      <txt><![CDATA[SERIAL is an IPUMS NHIS-constructed value that is an identifying number unique to each household in a given survey year. The combination of YEAR and SERIAL provides a unique identifier for every household in the IPUMS NHIS database.]]></txt>
+      <codInstr><![CDATA[CodesSERIAL is a 6-digit numeric variable.]]></codInstr>
+      <concept vocab="IPUMS">Technical Household Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="STRATA" dcml="0" files="ExtractData" intrvl="contin" name="STRATA">
+      <location EndPos="14" StartPos="11" width="4"/>
+      <labl>Stratum for variance estimation</labl>
+      <txt><![CDATA[STRATA is an IPUMS NHIS-constructed variable based on the NHIS sample design variables in the public use files concatenated with a sample design period indicator. STRATA represents the impact of the sample design stratification on the estimates of variance and standard errors. It is constant within a sample design period and changes between sample design periods. For analysis, researchers need to use STRATA in conjunction with PSU to account for stratification and clustering when computing variance estimates with IPUMS NHIS data.
+
+See the User Notes on variance estimation for additional information.     
+
+After the 2019 redesign, there is no longer a sampling weight to produce household population estimates. See the user note on the calculation and use of sampling weights for additional information.]]></txt>
+      <codInstr><![CDATA[CodesSTRATA is a 5-digit numeric variable.
+
+000:	Not in Universe]]></codInstr>
+      <concept vocab="IPUMS">Technical Household Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="PSU" dcml="0" files="ExtractData" intrvl="contin" name="PSU">
+      <location EndPos="17" StartPos="15" width="3"/>
+      <labl>Primary sampling unit (PSU) for variance estimation</labl>
+      <txt><![CDATA[PSU is the primary sampling unit variable that represents the impact of the sample design clustering on the estimates of variance and standard errors. It is constant within a sample design period and changes between sample design periods. For analysis, researchers need to use PSU in conjunction with STRATA to account for stratification and clustering when computing variance estimates with IPUMS NHIS data.  
+
+See the User Notes on variance estimation for additional information.
+
+After the 2019 redesign, there is no longer a sampling weight to produce household population estimates. See the user note on the calculation and use of sampling weights for additional information.]]></txt>
+      <codInstr><![CDATA[CodesPSU is a 3-digit numeric variable.
+
+000:	Not in Universe]]></codInstr>
+      <concept vocab="IPUMS">Technical Household Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="NHISHID" dcml="0" files="ExtractData" intrvl="contin" name="NHISHID">
+      <location EndPos="31" StartPos="18" width="14"/>
+      <labl>NHIS Unique identifier, household</labl>
+      <txt><![CDATA[NHISHID is an IPUMS NHIS-constructed value that is an identifying number unique to each household in a given survey year. Using NHISHID, analysts can link IPUMS NHIS data with additional household-level data elements, from the NHIS source public use data files, that are not currently available in IPUMS.  NHISHID is a single variable constructed by concatenating multiple data elements from the NHIS source data files.  Analysts wishing to link person-level NHIS data should use the person-level linking key NHISPID.
+
+See the user note on LINKING for instructions on how to create links between IPUMS NHIS and NHIS source data.  
+
+After the 2019 redesign, there is no longer a sampling weight to produce household population estimates. See the user note on the calculation and use of sampling weights for additional information.]]></txt>
+      <codInstr><![CDATA[CodesNHISHID is a 14-character string variable.]]></codInstr>
+      <concept vocab="IPUMS">Technical Household Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="character"/>
+    </var>
+    <var ID="HHWEIGHT" dcml="0" files="ExtractData" intrvl="contin" name="HHWEIGHT">
+      <location EndPos="37" StartPos="32" width="6"/>
+      <labl>Household weight, final annual</labl>
+      <txt><![CDATA[HHWEIGHT is an IPUMS NHIS-constructed variable based on the Final Annual Household Weight for 1997 forward and the Final Basic Weight in 1969-1996 NHIS public use files. HHWEIGHT represents the inverse probability of household selection into the sample, adjusted for non-response. For analyses using the household as the unit of analysis (e.g., how many households contained a person who needed help with activities of daily living?), researchers should use the household weight. 
+
+Rather than using HHWEIGHT, researchers should use PERWEIGHT or SAMPWEIGHT when analyzing person-level variables or variables from the sample adult/sample child supplements from 1997 forward. See the User Notes on the use of sampling weights for additional information.]]></txt>
+      <codInstr><![CDATA[CodesHHWEIGHT is a 6-digit numeric variable.]]></codInstr>
+      <concept vocab="IPUMS">Technical Household Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="PERNUM" dcml="0" files="ExtractData" intrvl="contin" name="PERNUM">
+      <location EndPos="39" StartPos="38" width="2"/>
+      <labl>Person number within family/household (from reformatting)</labl>
+      <txt><![CDATA[PERNUM is an IPUMS NHIS-constructed variable that numbers all persons within each family or within each household consecutively (starting with "1") in the order in which they appear in the original NHIS data.  PERNUM was created by IPUMS NHIS during the process of reformatting the original NHIS public use files. 
+
+Prior to 2019, PERNUM numbers all persons within each family. Beginning in 2019, PERNUM numbers all person within a household and has a maximum of "2," as only the sample child and sample adult are identified in the original NHIS data. For more information, see the Comparability section.]]></txt>
+      <codInstr><![CDATA[CodesPERNUM is a 2-digit numeric variable.]]></codInstr>
+      <concept vocab="IPUMS">Technical Person Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="NHISPID" dcml="0" files="ExtractData" intrvl="contin" name="NHISPID">
+      <location EndPos="55" StartPos="40" width="16"/>
+      <labl>NHIS Unique Identifier, person</labl>
+      <txt><![CDATA[NHISPID is an IPUMS NHIS-constructed value that is an identifying number unique to each person in a given survey year.  Using NHISPID, analysts can link IPUMS NHIS data with additional data elements, from the NHIS source public use data files, that are not currently available in IPUMS.  For example, researchers can use NHISPID to link variables in IPUMS NHIS with other variables from the core NHIS files variables.  Alternatively, users may use NHISPID to link variables from IPUMS with variables from NHIS supplements that are not yet part of IPUMS NHIS. NHISPID is a single variable constructed by concatenating multiple data elements from the NHIS source data files.  
+
+Analysts wishing to link household-level NHIS data should use the household-level linking key NHISHID.
+
+See the user note on LINKING for instructions on how to create links between IPUMS NHIS and NHIS source data.]]></txt>
+      <codInstr><![CDATA[CodesNHISPID is a 16-character string variable.]]></codInstr>
+      <concept vocab="IPUMS">Technical Person Variables -- PERSON</concept>
+      <varFormat schema="other" type="character"/>
+    </var>
+    <var ID="HHX" dcml="0" files="ExtractData" intrvl="contin" name="HHX">
+      <location EndPos="62" StartPos="56" width="7"/>
+      <labl>Household number (from NHIS)</labl>
+      <txt><![CDATA[For sample adults and sample children, HHX reports the person's household number on the original NHIS data. HHX is unique within sample but only unique across samples when combined with information on year. Prior to 2019, this variable was available for all persons.]]></txt>
+      <codInstr><![CDATA[This is a 7-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Person Variables -- PERSON</concept>
+      <varFormat schema="other" type="character"/>
+    </var>
+    <var ID="FMX" dcml="0" files="ExtractData" intrvl="contin" name="FMX">
+      <location EndPos="64" StartPos="63" width="2"/>
+      <labl>Family number (from NHIS)</labl>
+      <txt><![CDATA[For all persons, FMX reports the person's family number within the household, as documented on the family record on the original NHIS data. FMX is unique only when combined with information on year and household.]]></txt>
+      <codInstr><![CDATA[This is a 2-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Person Variables -- PERSON</concept>
+      <varFormat schema="other" type="character"/>
+    </var>
+    <var ID="PX" dcml="0" files="ExtractData" intrvl="contin" name="PX">
+      <location EndPos="66" StartPos="65" width="2"/>
+      <labl>Person number of respondent (from NHIS).</labl>
+      <txt><![CDATA[PX is the original person number assigned to each individual by the NHIS. PX is unique only when combined with information on year, household, and family.]]></txt>
+      <codInstr><![CDATA[CodesPX is a 2-digit numeric variable.]]></codInstr>
+      <concept vocab="IPUMS">Technical Person Variables -- PERSON</concept>
+      <varFormat schema="other" type="character"/>
+    </var>
+    <var ID="PERWEIGHT" dcml="0" files="ExtractData" intrvl="contin" name="PERWEIGHT">
+      <location EndPos="78" StartPos="67" width="12"/>
+      <labl>Final basic annual weight</labl>
+      <txt><![CDATA[PERWEIGHT is an IPUMS NHIS-constructed variable based on the Final Annual Weight in the original NHIS public use files.  This weight should be used for many analyses at the person level, particularly with variables for which information was collected about all family members. PERWEIGHT represents the inverse probability of selection into the sample, adjusted for non-response with post-stratification adjustments for age, race/ethnicity, and sex using the Census Bureau's population control totals. For each year, the sum of these weights is equal to that year's civilian, non-institutionalized U.S. population.
+
+There are instances, however, when the researcher should use a different person-level weight, particularly with supplements where a random adult or child family member was selected for questioning. For example, researchers analyzing variables from the sample adult/sample child supplements from 1997 forward should use SAMPWEIGHT rather than PERWEIGHT. 
+
+Users  should review the documentation for extracted variables--most notably the "Weights" section toward the top of each variable description--to ascertain which weight is the appropriate choice for a given survey year. See the User Notes on the use of sampling weights for additional information.]]></txt>
+      <codInstr><![CDATA[CodesPERWEIGHT is a 12-digit numeric variable.]]></codInstr>
+      <concept vocab="IPUMS">Technical Person Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="SAMPWEIGHT" dcml="3" files="ExtractData" intrvl="contin" name="SAMPWEIGHT">
+      <location EndPos="90" StartPos="79" width="12"/>
+      <labl>Sample Person Weight</labl>
+      <txt><![CDATA[SAMPWEIGHT is an IPUMS NHIS-constructed variable that represents, with a few exceptions, the random selection of a sample person in the household to complete a supplement survey.  (The exceptions to this generalization are the 1983 health insurance supplement and 1993 health insurance, access to care, and family resources supplements, which were asked of all persons in the second half of the year.)
+
+For survey years 1997 forward, SAMPWEIGHT is based on the Final Annual Sample Adult and Sample Child Weights in the original NHIS public use files. This weight should be used with variables taken from the sample adult or sample child supplements for 1997 on (as indicated by the supplement title in the "Source" section toward the top of each variable description). 
+
+SAMPWEIGHT also contains the sampling weights for a subset of the pre-1997 supplements, for which the definition of a sample person, and the rules governing the selection of sample persons, are less consistent. The universe statements for SAMPWEIGHT document who was included in the supplements requiring use of this weight on a year-by-year basis. SAMPWEIGHT consistently represents the inverse probability of selection into a supplement, adjusted for non-response with additional post-stratification adjustments for age, race/ethnicity, and sex using the Census Bureau's population control totals.
+
+Users should review the documentation for extracted variables--most notably the "Weights" section toward the top of each variable description--to ascertain which weight is the appropriate choice for a given survey year. See the User Notes on the use of sampling weights for additional information.]]></txt>
+      <codInstr><![CDATA[CodesSAMPWEIGHT is a 12-digit numeric variable with three implied decimals.]]></codInstr>
+      <concept vocab="IPUMS">Technical Person Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="FWEIGHT" dcml="0" files="ExtractData" intrvl="contin" name="FWEIGHT">
+      <location EndPos="96" StartPos="91" width="6"/>
+      <labl>Final annual family weight</labl>
+      <txt><![CDATA[FWEIGHT is a variable based on the Final Annual Weight in the original NHIS public use files. This weight should be used for many analyses at the family level, particularly with variables for which information was collected about family characteristics. 
+&nbsp;Creating FWEIGHT requires using independent estimates of the number of families from a reliable source such as the U.S. Census Bureau in order to perform post-stratification adjustments in a manner similar to what was done for the person-level weights. However, such independent estimates do not exist. 
+
+As a result, the NHIS used the "principle person" method to create family-level weights. The person weight with the smallest ratio adjustment within each family was used as a proxy for the family-level ratio adjustment. This method is believed to provide a more accurate estimate of the total number of U.S. families than either the use of other person weights within the family or the use of no ratio adjustments at all. Therefore, the Family weight contains factors for selection probabilities at the household level, household non-response adjustment, and several ratio adjustment factors that are applied to all person weights.Users  should review the documentation for extracted variables--most notably the "Weights" section toward the top of each variable description--to ascertain which weight is the appropriate choice for a given survey year. See the User Notes on the use of sampling weights for additional information.]]></txt>
+      <codInstr><![CDATA[CodesFWEIGHT is a 6-digit numeric variable.]]></codInstr>
+      <concept vocab="IPUMS">Technical Person Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="ASTATFLG" dcml="0" files="ExtractData" intrvl="discrete" name="ASTATFLG">
+      <location EndPos="97" StartPos="97" width="1"/>
+      <labl>Sample adult flag</labl>
+      <txt><![CDATA[ASTATFLG identifies the record of a sample adult. A sample adult is the one adult per family who was selected at random by the computerized survey instrument to answer additional health-related questions, under the survey design instituted in 1997.  All persons other than sample adults (those not having the value 1 in ASTATFLG) are coded as "not in universe" for variables derived from the additional questions asked only of sample adults.  (Some additional questions were asked of both sample adults and sample children.)   Every adult in each family, except for active duty armed forces members, was eligible to be selected as the sample adult.  
+
+ASTATFLG has the value "no one selected as sample adult" (code 4) for all adults in the family in the following two cases: 1) sample adult status was incorrectly assigned to someone in the armed forces, or 2) it could not be ascertained which adult in the family was chosen as sample adult.   
+
+A similar flag variable, CSTATFLG, identifies the record of a sample child, that is, the one person under 18 per family who was selected at random for additional health-related questions, beginning in 1997, for families that included children.
+
+This variable is automatically included in all extracts, but only has valid values for 1997 forward.]]></txt>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Sample adult, has record</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Sample adult, no record</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Not selected as sample adult</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>No one selected as sample adult</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Armed forces member</labl>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>AF member, selected as sample adult</labl>
+      </catgry>
+      <concept vocab="IPUMS">Technical Person Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="CSTATFLG" dcml="0" files="ExtractData" intrvl="discrete" name="CSTATFLG">
+      <location EndPos="98" StartPos="98" width="1"/>
+      <labl>Sample child flag</labl>
+      <txt><![CDATA[CSTATFLG identifies the record of a sample child.  A sample child is the one person under age 18 per family who was selected at random by the computerized survey instrument for additional health-related questions, under the survey design instituted in 1997.  All persons other than sample children (those not having the value 1 in CSTATFLG) are coded as "not in universe" for variables derived from these additional questions asked only of sample children.  (Some additional questions were asked of both sample adults and sample children.)   
+
+Every child in each family, except for active duty armed forces members and emancipated minors, was eligible to be selected as the sample child.  Emancipated minors are persons age 14 to 17 who are married or living with a partner OR who live on their own without the supervision of a parent, other adult family member, or legal guardian.  
+
+CSTATFLG has the value "no one selected as sample child" (code 4) for all children in the family in the following two cases: 1) if sample child status was incorrectly assigned to someone who was ineligible, or 2) if it was unknown which child in the family was chosen as sample child.   
+
+A similar flag variable, ASTATFLG, identifies the record of a sample adult, that is, the one person age 18+ per family who was selected at random for additional health-related questions, under the survey design instituted in 1997.
+
+This variable is automatically included in all extracts, but only has valid values for 1997 forward.]]></txt>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Sample child-has record</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Sample child-no record</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Not selected as sample child</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>No one selected as sample child</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Emancipated minor</labl>
+      </catgry>
+      <concept vocab="IPUMS">Technical Person Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="AGE" dcml="0" files="ExtractData" intrvl="contin" name="AGE">
+      <location EndPos="101" StartPos="99" width="3"/>
+      <labl>Age</labl>
+      <txt><![CDATA[AGE reports the individual's age, in years since their last birthday. Starting in 2019, "Unknown-refused" and "Unknown-don't know" are allowed responses. Prior to 2019 age is not coded as "unknown" for any persons included in the IPUMS NHIS data. As the public use file's codebooks for 1998-2003 state, "Because age is an important variable for instrument check items and in developing the weights, all respondents must have data on age."]]></txt>
+      <codInstr><![CDATA[CodesAGE is a 3-digit-numeric variable.
+
+085:	Top code for 85 years or older (1963-1968 and 1997-forward)
+090:	Top code for 90 years or older (1996 only)
+099:	Top code for 99 years or older (1969-1995)
+997:	Unknown-refused
+998:	Unknown-not ascertained
+999:	Unknown-don't know]]></codInstr>
+      <concept vocab="IPUMS">Core Demographic Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="SEX" dcml="0" files="ExtractData" intrvl="discrete" name="SEX">
+      <location EndPos="102" StartPos="102" width="1"/>
+      <labl>Sex</labl>
+      <txt><![CDATA[SEX indicates whether the person was male or female.  
+
+Starting in 2019, "Unknown-refused" and "Unknown-don't know" responses are allowed. Prior to 2019, SEX is not coded as "unknown" for any persons included in the IPUMS NHIS data.]]></txt>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Male</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Female</labl>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Unknown-refused</labl>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>Unknown-not ascertained</labl>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>Unknown-don't know</labl>
+      </catgry>
+      <concept vocab="IPUMS">Core Demographic Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="MARSTAT" dcml="0" files="ExtractData" intrvl="discrete" name="MARSTAT">
+      <location EndPos="104" StartPos="103" width="2"/>
+      <labl>Legal marital status</labl>
+      <txt><![CDATA[MARSTAT reports the person's legal marital status.]]></txt>
+      <catgry>
+        <catValu>00</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>Married</labl>
+      </catgry>
+      <catgry>
+        <catValu>11</catValu>
+        <labl>Married - Spouse present</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>Married - Spouse not in household</labl>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>Married - Spouse in household unknown</labl>
+      </catgry>
+      <catgry>
+        <catValu>20</catValu>
+        <labl>Widowed</labl>
+      </catgry>
+      <catgry>
+        <catValu>30</catValu>
+        <labl>Divorced</labl>
+      </catgry>
+      <catgry>
+        <catValu>40</catValu>
+        <labl>Separated</labl>
+      </catgry>
+      <catgry>
+        <catValu>50</catValu>
+        <labl>Never married</labl>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>Unknown marital status</labl>
+      </catgry>
+      <concept vocab="IPUMS">Core Demographic Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="EDUC" dcml="0" files="ExtractData" intrvl="discrete" name="EDUC">
+      <location EndPos="107" StartPos="105" width="3"/>
+      <labl>Educational attainment</labl>
+      <txt><![CDATA[For sample adults (and, prior to 2019, for all persons aged 5 and older), EDUC reports the highest level of schooling an individual had completed, in terms of completed grades for persons with less than a high school degree, and in terms of degrees attained for high school graduates and those with higher education.  Respondents were handed a card listing recognized categories and asked to identify the correct category.
+
+According to the Field Representative's Manuals for 1997-2000, only "regular schooling which advances a person toward an elementary or high school diploma, or a college/university/professional school (such as law, medicine, dentistry)" counted as education.  Schooling in settings other than "regular schools" counted only if the credits obtained were acceptable in a regular school system.  Thus, for example, "adult education" classes not taken for credit or for the attainment of a college degree did not count.  
+
+For the end of high school, EDUC distinguishes between those who completed twelfth grade but did not attain a diploma (e.g., those who failed to pass state-mandated high school exit examinations), those who graduated from high school, and those passed the GED (General Equivalence Degree) Test (which certifies that the test taker has attained high school-level academic skills).  Persons who attained a high school diploma in less than twelve years were to be recorded as "high school graduates," a guideline consistent with EDUC's emphasis on degrees attained rather than years spent in the classroom.  The Field Representative's Manual for 1997-2000 directed interviewers to probe to determine whether persons who attended "post-graduate" high school classes but did not attend college had received a high school diploma.  
+
+For nurses, interviewers were to determine whether training was received in a college or in a nursing school (with the grade completed at the last regular--non-nursing--school to be entered in the latter case).  For a person attending special education classes or a school for persons with mental, physical, or developmental difficulties, interviewers were to ask which grade in a regular school most closely matched the individual's education level.  Persons currently in school were generally assumed to have completed the previous grade.]]></txt>
+      <catgry>
+        <catValu>000</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>100</catValu>
+        <labl>Grade 12 or less, no high school diploma or equivalent</labl>
+      </catgry>
+      <catgry>
+        <catValu>101</catValu>
+        <labl>Grade 8 or less (no further detail)</labl>
+      </catgry>
+      <catgry>
+        <catValu>102</catValu>
+        <labl>Never attended/kindergarten only</labl>
+      </catgry>
+      <catgry>
+        <catValu>103</catValu>
+        <labl>Grades 1-11 (no further detail)</labl>
+      </catgry>
+      <catgry>
+        <catValu>104</catValu>
+        <labl>Grade 1</labl>
+      </catgry>
+      <catgry>
+        <catValu>105</catValu>
+        <labl>Grade 2</labl>
+      </catgry>
+      <catgry>
+        <catValu>106</catValu>
+        <labl>Grade 3</labl>
+      </catgry>
+      <catgry>
+        <catValu>107</catValu>
+        <labl>Grade 4</labl>
+      </catgry>
+      <catgry>
+        <catValu>108</catValu>
+        <labl>Grade 5</labl>
+      </catgry>
+      <catgry>
+        <catValu>109</catValu>
+        <labl>Grade 6</labl>
+      </catgry>
+      <catgry>
+        <catValu>110</catValu>
+        <labl>Grade 7</labl>
+      </catgry>
+      <catgry>
+        <catValu>111</catValu>
+        <labl>Grade 8</labl>
+      </catgry>
+      <catgry>
+        <catValu>112</catValu>
+        <labl>Grade 9-12, no diploma (no further detail)</labl>
+      </catgry>
+      <catgry>
+        <catValu>113</catValu>
+        <labl>Grade 9</labl>
+      </catgry>
+      <catgry>
+        <catValu>114</catValu>
+        <labl>Grade 10</labl>
+      </catgry>
+      <catgry>
+        <catValu>115</catValu>
+        <labl>Grade 11</labl>
+      </catgry>
+      <catgry>
+        <catValu>116</catValu>
+        <labl>12th grade, no diploma</labl>
+      </catgry>
+      <catgry>
+        <catValu>200</catValu>
+        <labl>High school diploma or GED</labl>
+      </catgry>
+      <catgry>
+        <catValu>201</catValu>
+        <labl>High school graduate</labl>
+      </catgry>
+      <catgry>
+        <catValu>202</catValu>
+        <labl>GED or equivalent</labl>
+      </catgry>
+      <catgry>
+        <catValu>300</catValu>
+        <labl>Some college, no 4yr degree</labl>
+      </catgry>
+      <catgry>
+        <catValu>301</catValu>
+        <labl>Some college, no degree</labl>
+      </catgry>
+      <catgry>
+        <catValu>302</catValu>
+        <labl>AA degree: technical/vocational/occupational</labl>
+      </catgry>
+      <catgry>
+        <catValu>303</catValu>
+        <labl>AA degree: academic program</labl>
+      </catgry>
+      <catgry>
+        <catValu>400</catValu>
+        <labl>Bachelor's degree (BA,AB,BS,BBA)</labl>
+      </catgry>
+      <catgry>
+        <catValu>500</catValu>
+        <labl>Master's, Professional, or Doctoral Degree</labl>
+      </catgry>
+      <catgry>
+        <catValu>501</catValu>
+        <labl>Master's degree (MA,MS,Med,MBA)</labl>
+      </catgry>
+      <catgry>
+        <catValu>502</catValu>
+        <labl>Professional (MD,DDS,DVM,JD)</labl>
+      </catgry>
+      <catgry>
+        <catValu>503</catValu>
+        <labl>Doctoral degree (PhD, EdD)</labl>
+      </catgry>
+      <catgry>
+        <catValu>504</catValu>
+        <labl>Other degree</labl>
+      </catgry>
+      <catgry>
+        <catValu>996</catValu>
+        <labl>No degree, years of education unknown</labl>
+      </catgry>
+      <catgry>
+        <catValu>997</catValu>
+        <labl>Unknown--refused</labl>
+      </catgry>
+      <catgry>
+        <catValu>998</catValu>
+        <labl>Unknown--not ascertained</labl>
+      </catgry>
+      <catgry>
+        <catValu>999</catValu>
+        <labl>Unknown--don't know</labl>
+      </catgry>
+      <concept vocab="IPUMS">Education Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="HOURSWRK" dcml="0" files="ExtractData" intrvl="discrete" name="HOURSWRK">
+      <location EndPos="109" StartPos="108" width="2"/>
+      <labl>Total hours worked last week or usually</labl>
+      <txt><![CDATA[For sample adults aged 18+ (and all persons age 18+ in 2004-2018) who worked at a paid or unpaid job or business last week, held a seasonal or contract position last week, or were not working last week because they were on vacation, on family/maternity leave, unable to work for health reasons, HOURSWRK reports the total hours that the sample person worked in the past week. or in the past two weeks at all jobs/ businesses or at the main job/business. The universe and time period for HOURSWRK were somewhat different for 1979 and 1991. HOURSWORK reports total hours worked in the past two weeks for sample persons aged 17+ in 1979 who, during the past 2 weeks, worked, had a job or business from which they were temporarily absent, or looked for work or were on layoff; in 1991, HOURSWORK reports total work hours worked in the  past two weeks for sample persons aged 18+ in 1991 who were employed in the past 2 weeks and worked for a private company or the federal, state, or local government. Please refer to the Universe and Comparability tabs for more information about changes in the universe, time period, and the types of jobs included in HOURSWRK.
+
+Beginning in 2019, sample adults aged 18+ who held a seasonal or contract position last week continued to be identified by NCHS as included in the universe for HOURSWORK, but were omitted from the HOURSWRK question and had their responses set to "Unknown - Not Ascertained."]]></txt>
+      <catgry>
+        <catValu>00</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>01</catValu>
+        <labl>1</labl>
+      </catgry>
+      <catgry>
+        <catValu>02</catValu>
+        <labl>2</labl>
+      </catgry>
+      <catgry>
+        <catValu>03</catValu>
+        <labl>3</labl>
+      </catgry>
+      <catgry>
+        <catValu>04</catValu>
+        <labl>4</labl>
+      </catgry>
+      <catgry>
+        <catValu>05</catValu>
+        <labl>5</labl>
+      </catgry>
+      <catgry>
+        <catValu>06</catValu>
+        <labl>6</labl>
+      </catgry>
+      <catgry>
+        <catValu>07</catValu>
+        <labl>7</labl>
+      </catgry>
+      <catgry>
+        <catValu>08</catValu>
+        <labl>8</labl>
+      </catgry>
+      <catgry>
+        <catValu>09</catValu>
+        <labl>9</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>10</labl>
+      </catgry>
+      <catgry>
+        <catValu>11</catValu>
+        <labl>11</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>12</labl>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>13</labl>
+      </catgry>
+      <catgry>
+        <catValu>14</catValu>
+        <labl>14</labl>
+      </catgry>
+      <catgry>
+        <catValu>15</catValu>
+        <labl>15</labl>
+      </catgry>
+      <catgry>
+        <catValu>16</catValu>
+        <labl>16</labl>
+      </catgry>
+      <catgry>
+        <catValu>17</catValu>
+        <labl>17</labl>
+      </catgry>
+      <catgry>
+        <catValu>18</catValu>
+        <labl>18</labl>
+      </catgry>
+      <catgry>
+        <catValu>19</catValu>
+        <labl>19</labl>
+      </catgry>
+      <catgry>
+        <catValu>20</catValu>
+        <labl>20</labl>
+      </catgry>
+      <catgry>
+        <catValu>21</catValu>
+        <labl>21</labl>
+      </catgry>
+      <catgry>
+        <catValu>22</catValu>
+        <labl>22</labl>
+      </catgry>
+      <catgry>
+        <catValu>23</catValu>
+        <labl>23</labl>
+      </catgry>
+      <catgry>
+        <catValu>24</catValu>
+        <labl>24</labl>
+      </catgry>
+      <catgry>
+        <catValu>25</catValu>
+        <labl>25</labl>
+      </catgry>
+      <catgry>
+        <catValu>26</catValu>
+        <labl>26</labl>
+      </catgry>
+      <catgry>
+        <catValu>27</catValu>
+        <labl>27</labl>
+      </catgry>
+      <catgry>
+        <catValu>28</catValu>
+        <labl>28</labl>
+      </catgry>
+      <catgry>
+        <catValu>29</catValu>
+        <labl>29</labl>
+      </catgry>
+      <catgry>
+        <catValu>30</catValu>
+        <labl>30</labl>
+      </catgry>
+      <catgry>
+        <catValu>31</catValu>
+        <labl>31</labl>
+      </catgry>
+      <catgry>
+        <catValu>32</catValu>
+        <labl>32</labl>
+      </catgry>
+      <catgry>
+        <catValu>33</catValu>
+        <labl>33</labl>
+      </catgry>
+      <catgry>
+        <catValu>34</catValu>
+        <labl>34</labl>
+      </catgry>
+      <catgry>
+        <catValu>35</catValu>
+        <labl>35</labl>
+      </catgry>
+      <catgry>
+        <catValu>36</catValu>
+        <labl>36</labl>
+      </catgry>
+      <catgry>
+        <catValu>37</catValu>
+        <labl>37</labl>
+      </catgry>
+      <catgry>
+        <catValu>38</catValu>
+        <labl>38</labl>
+      </catgry>
+      <catgry>
+        <catValu>39</catValu>
+        <labl>39</labl>
+      </catgry>
+      <catgry>
+        <catValu>40</catValu>
+        <labl>40</labl>
+      </catgry>
+      <catgry>
+        <catValu>41</catValu>
+        <labl>41</labl>
+      </catgry>
+      <catgry>
+        <catValu>42</catValu>
+        <labl>42</labl>
+      </catgry>
+      <catgry>
+        <catValu>43</catValu>
+        <labl>43</labl>
+      </catgry>
+      <catgry>
+        <catValu>44</catValu>
+        <labl>44</labl>
+      </catgry>
+      <catgry>
+        <catValu>45</catValu>
+        <labl>45</labl>
+      </catgry>
+      <catgry>
+        <catValu>46</catValu>
+        <labl>46</labl>
+      </catgry>
+      <catgry>
+        <catValu>47</catValu>
+        <labl>47</labl>
+      </catgry>
+      <catgry>
+        <catValu>48</catValu>
+        <labl>48</labl>
+      </catgry>
+      <catgry>
+        <catValu>49</catValu>
+        <labl>49</labl>
+      </catgry>
+      <catgry>
+        <catValu>50</catValu>
+        <labl>50</labl>
+      </catgry>
+      <catgry>
+        <catValu>51</catValu>
+        <labl>51</labl>
+      </catgry>
+      <catgry>
+        <catValu>52</catValu>
+        <labl>52</labl>
+      </catgry>
+      <catgry>
+        <catValu>53</catValu>
+        <labl>53</labl>
+      </catgry>
+      <catgry>
+        <catValu>54</catValu>
+        <labl>54</labl>
+      </catgry>
+      <catgry>
+        <catValu>55</catValu>
+        <labl>55</labl>
+      </catgry>
+      <catgry>
+        <catValu>56</catValu>
+        <labl>56</labl>
+      </catgry>
+      <catgry>
+        <catValu>57</catValu>
+        <labl>57</labl>
+      </catgry>
+      <catgry>
+        <catValu>58</catValu>
+        <labl>58</labl>
+      </catgry>
+      <catgry>
+        <catValu>59</catValu>
+        <labl>59</labl>
+      </catgry>
+      <catgry>
+        <catValu>60</catValu>
+        <labl>60</labl>
+      </catgry>
+      <catgry>
+        <catValu>61</catValu>
+        <labl>61</labl>
+      </catgry>
+      <catgry>
+        <catValu>62</catValu>
+        <labl>62</labl>
+      </catgry>
+      <catgry>
+        <catValu>63</catValu>
+        <labl>63</labl>
+      </catgry>
+      <catgry>
+        <catValu>64</catValu>
+        <labl>64</labl>
+      </catgry>
+      <catgry>
+        <catValu>65</catValu>
+        <labl>65</labl>
+      </catgry>
+      <catgry>
+        <catValu>66</catValu>
+        <labl>66</labl>
+      </catgry>
+      <catgry>
+        <catValu>67</catValu>
+        <labl>67</labl>
+      </catgry>
+      <catgry>
+        <catValu>68</catValu>
+        <labl>68</labl>
+      </catgry>
+      <catgry>
+        <catValu>69</catValu>
+        <labl>69</labl>
+      </catgry>
+      <catgry>
+        <catValu>70</catValu>
+        <labl>70</labl>
+      </catgry>
+      <catgry>
+        <catValu>71</catValu>
+        <labl>71</labl>
+      </catgry>
+      <catgry>
+        <catValu>72</catValu>
+        <labl>72</labl>
+      </catgry>
+      <catgry>
+        <catValu>73</catValu>
+        <labl>73</labl>
+      </catgry>
+      <catgry>
+        <catValu>74</catValu>
+        <labl>74</labl>
+      </catgry>
+      <catgry>
+        <catValu>75</catValu>
+        <labl>75</labl>
+      </catgry>
+      <catgry>
+        <catValu>76</catValu>
+        <labl>76</labl>
+      </catgry>
+      <catgry>
+        <catValu>77</catValu>
+        <labl>77</labl>
+      </catgry>
+      <catgry>
+        <catValu>78</catValu>
+        <labl>78</labl>
+      </catgry>
+      <catgry>
+        <catValu>79</catValu>
+        <labl>79</labl>
+      </catgry>
+      <catgry>
+        <catValu>80</catValu>
+        <labl>80</labl>
+      </catgry>
+      <catgry>
+        <catValu>81</catValu>
+        <labl>81</labl>
+      </catgry>
+      <catgry>
+        <catValu>82</catValu>
+        <labl>82</labl>
+      </catgry>
+      <catgry>
+        <catValu>83</catValu>
+        <labl>83</labl>
+      </catgry>
+      <catgry>
+        <catValu>84</catValu>
+        <labl>84</labl>
+      </catgry>
+      <catgry>
+        <catValu>85</catValu>
+        <labl>85</labl>
+      </catgry>
+      <catgry>
+        <catValu>86</catValu>
+        <labl>86</labl>
+      </catgry>
+      <catgry>
+        <catValu>87</catValu>
+        <labl>87</labl>
+      </catgry>
+      <catgry>
+        <catValu>88</catValu>
+        <labl>88</labl>
+      </catgry>
+      <catgry>
+        <catValu>89</catValu>
+        <labl>89</labl>
+      </catgry>
+      <catgry>
+        <catValu>90</catValu>
+        <labl>90</labl>
+      </catgry>
+      <catgry>
+        <catValu>91</catValu>
+        <labl>91</labl>
+      </catgry>
+      <catgry>
+        <catValu>92</catValu>
+        <labl>92</labl>
+      </catgry>
+      <catgry>
+        <catValu>93</catValu>
+        <labl>93</labl>
+      </catgry>
+      <catgry>
+        <catValu>94</catValu>
+        <labl>94</labl>
+      </catgry>
+      <catgry>
+        <catValu>95</catValu>
+        <labl>95+ hours</labl>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>Unknown--refused</labl>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>Unknown--not ascertained</labl>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>Unknown--don't know</labl>
+      </catgry>
+      <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="MONTHWRK" dcml="0" files="ExtractData" intrvl="discrete" name="MONTHWRK">
+      <location EndPos="111" StartPos="110" width="2"/>
+      <labl>Months in last year had one or more jobs</labl>
+      <txt><![CDATA[For sample persons aged 17 and older in 1977 and 1979, persons aged 14 and older in 1990-1996 who worked for at least one employer during the month prior to the interview, and sample persons aged 18 and older from 1997 forward who worked at a job or business last week or who did not work last week but worked in the last year, MONTHWRK indicates the number of months that the sample person had at least one job or business.
+
+In 1993, this variable only included persons who were interviewed in quarters 3 and 4.
+&nbsp;From 1990 to 1996, this variable is part of the Family Resources supplement that provides information on individuals' health benefits, amount of coverage and income received from employment, welfare benefits, public assistance, and savings. 
+
+Questions in the Family Resources supplement are different from those in the core survey in terms of the content and the treatment of missing data. Questions in the Family Resources were normally asked of the month prior to the interview while the core survey asked of the last calendar year. All missing data in the Family Resources supplement were imputed by NHIS. Users can refer to the imputation flag variables JOBMOFLAG and JOBSELFMOFL to identify persons with imputed data.  
+
+From 1990 to 1992, users can use JOBMOFLAG to identify persons who worked for at least one employer last month and whose information on the number of working months was imputed. From 1993 to 1996, users should use JOBMOFLAG to identify persons with imputed data who exclusively worked for an employer last month and JOBSELFMOFL to identify those with imputed data who worked for an employer and were also self-employed last month.For more information about other related variables, please use the IPUMS NHIS search function and drop-down menus.]]></txt>
+      <catgry>
+        <catValu>00</catValu>
+        <labl>Did not work last year</labl>
+      </catgry>
+      <catgry>
+        <catValu>01</catValu>
+        <labl>1 month</labl>
+      </catgry>
+      <catgry>
+        <catValu>02</catValu>
+        <labl>2 months</labl>
+      </catgry>
+      <catgry>
+        <catValu>03</catValu>
+        <labl>3 months</labl>
+      </catgry>
+      <catgry>
+        <catValu>04</catValu>
+        <labl>4 months</labl>
+      </catgry>
+      <catgry>
+        <catValu>05</catValu>
+        <labl>5 months</labl>
+      </catgry>
+      <catgry>
+        <catValu>06</catValu>
+        <labl>6 months</labl>
+      </catgry>
+      <catgry>
+        <catValu>07</catValu>
+        <labl>7 months</labl>
+      </catgry>
+      <catgry>
+        <catValu>08</catValu>
+        <labl>8 months</labl>
+      </catgry>
+      <catgry>
+        <catValu>09</catValu>
+        <labl>9 months</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>10 months</labl>
+      </catgry>
+      <catgry>
+        <catValu>11</catValu>
+        <labl>11 months</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>12 months</labl>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>NIU, under age 18 (1977, 1979: under 17)</labl>
+      </catgry>
+      <catgry>
+        <catValu>20</catValu>
+        <labl>Worked last year, months unknown</labl>
+      </catgry>
+      <catgry>
+        <catValu>21</catValu>
+        <labl>Worked last year, refused to answer months</labl>
+      </catgry>
+      <catgry>
+        <catValu>22</catValu>
+        <labl>Worked last year, not ascertained months</labl>
+      </catgry>
+      <catgry>
+        <catValu>23</catValu>
+        <labl>Worked last year, don't know months</labl>
+      </catgry>
+      <catgry>
+        <catValu>90</catValu>
+        <labl>Missing information on whether worked last year</labl>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>Refused to answer if worked last year</labl>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>Not ascertained if worked last year</labl>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>Don't know if worked last year</labl>
+      </catgry>
+      <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="USUALFT" dcml="0" files="ExtractData" intrvl="discrete" name="USUALFT">
+      <location EndPos="112" StartPos="112" width="1"/>
+      <labl>Usually work full time</labl>
+      <txt><![CDATA[For sample persons aged 18 and over from 1997 to 2000 and from 2004 forward who worked last week for less than 35 hours or for an unknown number of hours and, sample persons aged 18 and over from 2001 to 2003 who worked last week for less than 35 hours, USUALFT indicates whether the sample person usually works a total of at least 35 hours per week at all of his/her jobs or businesses.
+
+For more information about other related variables, please use the IPUMS NHIS search function and drop-down menus.]]></txt>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>No</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Yes</labl>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Unknown--refused</labl>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>Unknown--not ascertained</labl>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>Unknown--don't know</labl>
+      </catgry>
+      <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="EMPSTATWKYR" dcml="0" files="ExtractData" intrvl="discrete" name="EMPSTATWKYR">
+      <location EndPos="113" StartPos="113" width="1"/>
+      <labl>Work status: Last week, past 12 months</labl>
+      <txt><![CDATA[For sample adults age 18 and older who were looking for work or who were not working at a job or business and were not looking for work in the past week, EMPSTATWKYR indicates whether the sample adult had a job or business at any time in the past 12 months.
+
+For related variables, please use the IPUMS NHIS search function and drop-down menus.]]></txt>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Had job last week</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>None last week, had past 12 mo</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>None last week, none past 12 mo</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Never worked</labl>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Unknown-refused</labl>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>Unknown-not ascertained</labl>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>Unknown-don't know</labl>
+      </catgry>
+      <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="EMPSTATSA" dcml="0" files="ExtractData" intrvl="discrete" name="EMPSTATSA">
+      <location EndPos="114" StartPos="114" width="1"/>
+      <labl>Corrected employment status last week (sample adults)</labl>
+      <txt><![CDATA[For sample adults age 18 and older, EMPSTATSA reports the corrected employment status for the week prior to the date of the interview.
+
+For related variables, please use the IPUMS NHIS search function and drop-down menus.]]></txt>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Working for pay at job or business</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>With job or business, not at work</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Looking for work</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Working without pay at job or business</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Not working or looking for work</labl>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Unknown-refused</labl>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>Unknown-not ascertained</labl>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>Unknown-don't know</labl>
+      </catgry>
+      <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="WHYNOWK2" dcml="0" files="ExtractData" intrvl="discrete" name="WHYNOWK2">
+      <location EndPos="116" StartPos="115" width="2"/>
+      <labl>Corrected main reason not working last week (sample adults)</labl>
+      <txt><![CDATA[For sample persons aged 18 and older whose corrected working status last week was not working at a job or business and was not looking for work (EMPSTATSA = 5) or who was with a job or business but not at work (EMPSTATSA = 2), WHYNOWK2 reports the main reason why the person did not have a job/business last week or why the person did not work last week.
+
+Please refer to the code tab for more detailed information on why the person did not work last week.]]></txt>
+      <catgry>
+        <catValu>00</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>Keeping house</labl>
+      </catgry>
+      <catgry>
+        <catValu>20</catValu>
+        <labl>Going to school</labl>
+      </catgry>
+      <catgry>
+        <catValu>30</catValu>
+        <labl>Retired</labl>
+      </catgry>
+      <catgry>
+        <catValu>40</catValu>
+        <labl>Unable to work for health reasons</labl>
+      </catgry>
+      <catgry>
+        <catValu>50</catValu>
+        <labl>On layoff</labl>
+      </catgry>
+      <catgry>
+        <catValu>60</catValu>
+        <labl>Other</labl>
+      </catgry>
+      <catgry>
+        <catValu>61</catValu>
+        <labl>Disabled</labl>
+      </catgry>
+      <catgry>
+        <catValu>62</catValu>
+        <labl>On a planned vacation from work</labl>
+      </catgry>
+      <catgry>
+        <catValu>63</catValu>
+        <labl>On family or maternity leave</labl>
+      </catgry>
+      <catgry>
+        <catValu>64</catValu>
+        <labl>Have job/contract; off season</labl>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>Unknown-refused</labl>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>Unknown-not ascertained</labl>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>Unknown-don't know</labl>
+      </catgry>
+      <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="POVERTY" dcml="0" files="ExtractData" intrvl="discrete" name="POVERTY">
+      <location EndPos="118" StartPos="117" width="2"/>
+      <labl>Ratio of family income to poverty threshold</labl>
+      <txt><![CDATA[For sample adults and sample children, POVERTY reports the ratio of family income to the U.S. Census Bureau's poverty thresholds for the year in question. Prior to 2019, POVERTY was reported for all persons. The poverty status of a family group is assigned to each member of the family, thus making POVERTY a person-level variable. The ratio of income to the poverty threshold is also calculated for adults who live alone or with persons they are not related to; in such cases, POVERTY is based on the individual's income.
+
+Values for POVERTY range from less than half of the poverty threshold for a family of a given size and age structure (i.e., with a given number of children under 18) to five or more times the poverty threshold for a family of a given size and age structure.  For families where the number of children under age 18 in the family is equivalent to the number of family members, family income is presumed to be nonexistent, and the ratio of such nonexistent income to the poverty line is undefinable (with a code of 98 in POVERTY).  
+
+The ratio of family income to the official poverty threshold in POVERTY is available only for 1997 forward.  The dichotomous variable POORYN, which distinguishes persons with family income at or above the poverty threshold from persons with family income below the poverty threshold, is available for 1982 forward.  For detailed discussion of the basis of the Census Bureau's official poverty thresholds, users should consult the variable description for POORYN.]]></txt>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>Less than 1.0</labl>
+      </catgry>
+      <catgry>
+        <catValu>11</catValu>
+        <labl>Under .50</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>.50 to .74</labl>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>.75 to .99</labl>
+      </catgry>
+      <catgry>
+        <catValu>14</catValu>
+        <labl>Less than 1.0 (no other detail)</labl>
+      </catgry>
+      <catgry>
+        <catValu>20</catValu>
+        <labl>1.00 to 1.99</labl>
+      </catgry>
+      <catgry>
+        <catValu>21</catValu>
+        <labl>1.00 to 1.24</labl>
+      </catgry>
+      <catgry>
+        <catValu>22</catValu>
+        <labl>1.25 to 1.49</labl>
+      </catgry>
+      <catgry>
+        <catValu>23</catValu>
+        <labl>1.50 to 1.74</labl>
+      </catgry>
+      <catgry>
+        <catValu>24</catValu>
+        <labl>1.75 to 1.99</labl>
+      </catgry>
+      <catgry>
+        <catValu>25</catValu>
+        <labl>1.00 - 1.99 (no further detail)</labl>
+      </catgry>
+      <catgry>
+        <catValu>30</catValu>
+        <labl>2.00 and over</labl>
+      </catgry>
+      <catgry>
+        <catValu>31</catValu>
+        <labl>2.00 to 2.49</labl>
+      </catgry>
+      <catgry>
+        <catValu>32</catValu>
+        <labl>2.50 to 2.99</labl>
+      </catgry>
+      <catgry>
+        <catValu>33</catValu>
+        <labl>3.00 to 3.49</labl>
+      </catgry>
+      <catgry>
+        <catValu>34</catValu>
+        <labl>3.50 to 3.99</labl>
+      </catgry>
+      <catgry>
+        <catValu>35</catValu>
+        <labl>4.00 to 4.49</labl>
+      </catgry>
+      <catgry>
+        <catValu>36</catValu>
+        <labl>4.50 to 4.99</labl>
+      </catgry>
+      <catgry>
+        <catValu>37</catValu>
+        <labl>5.00 and over</labl>
+      </catgry>
+      <catgry>
+        <catValu>38</catValu>
+        <labl>2.00 and over (no other detail)</labl>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>Undefinable</labl>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>Unknown</labl>
+      </catgry>
+      <concept vocab="IPUMS">Material Hardship Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="AEFFORT" dcml="0" files="ExtractData" intrvl="discrete" name="AEFFORT">
+      <location EndPos="119" StartPos="119" width="1"/>
+      <labl>Felt everything an effort, past 30 days (adults)</labl>
+      <txt><![CDATA[AEFFORT reports responses to the question, "During the past 30 days, how often did you feel that everything was an effort?"   
+
+The Field Representative's Manual for 1997-2000 stated that the meaning of "everything" was respondent defined. At the beginning of the section of the survey devoted to evaluating nonspecific psychological distress, interviewers stated, "Now I am going to ask you some questions about feelings you may have experienced over the past 30 days."  They then handed respondents a flashcard listing five categories (all of the time; most of the time; some of the time; a little of the time; none of the time), from which respondents were to select the appropriate response.  The Manual for 1997-2000 directed the interviewer to "reread the question, emphasizing the wording of the answer categories," if the respondent gave an answer that did not match these categories.
+
+Related Variables
+
+AEFFORT is one of a series of six variables whose responses can be summed as a scale measuring nonspecific psychological distress over a 30-day recall period.  This scale, developed by Ronald C. Kessler and known as the Kessler 6 Scale (K6), asks about six manifestations of nonspecific psychological distress.  
+&nbsp;Kessler's instrument asks how often, during the past 30 days, the respondent felt:
+
+So sad that nothing could cheer you up? (ASAD)
+
+Nervous? (ANERVOUS)
+
+Restless or fidgety? (ARESTLESS)
+
+Hopeless? (AHOPELESS)
+
+That everything was an effort? (AEFFORT)
+
+Worthless? (AWORTHLESS)
+As noted above, acceptable responses fell into five categories, ranging from "none of the time" to "all of the time."Scoring Variables&nbsp;Kessler recommends scoring the scale by assigning 0 to 4 points for each of the six questions, based on the reported frequency of the feelings (i.e., 0 for "none of the time"; 1 for "a little of the time"; 2 for "some of the time"; 3 for "most of the time"; and 4 for "all of the time").  The range for summed responses on the K6 Scale is thus 0 to 24, with 0 suggesting the lowest level of nonspecific psychological distress, and 24 suggesting the highest level of nonspecific psychological distress.  According to the scoring criteria proposed by Kessler, persons with a score of 13 or greater are likely to be experiencing severe mental illness.
+
+To assist researchers who intend to sum responses to the variables included in the K6 Scale, IPUMS NHIS assigns codes that are consistent with Kessler's advised scoring system (i.e., with "none of the time" coded as 0 and "all of the time" coded as 4).  To produce valid results, users must exclude not in universe cases (persons other than sample adults, code 6 in IPUMS NHIS) and unknown cases (codes 7, 8, and 9 in IPUMS NHIS) before summing the responses.Follow-up Questions&nbsp;As a follow-up to the K6 Scale questions, the NHIS included a question that was not part of Kessler's original survey instrument.   All sample adults who answered "some of the time," "most of the time," or "all of the time" to any of the six questions included in the Kessler 6 Scale were asked, "Altogether, how much did these feelings interfere with your life or activities: a lot, some, a little, or not at all?" (AFEELINT1MO).   In 1999, additional follow-up questions collected further information about how "these feelings" affected the person (see FBADHOWOFT, FBADMORE, FBADLESS, FBADUNABLE, and FBADCUTDOWN).]]></txt>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>None of the time</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>A little of the time</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Some of the time</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Most of the time</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>All of the time</labl>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Unknown-refused</labl>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>Unknown-not ascertained</labl>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>Unknown-don't know</labl>
+      </catgry>
+      <concept vocab="IPUMS">Adult Mental Health Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="AFEELINT1MO" dcml="0" files="ExtractData" intrvl="discrete" name="AFEELINT1MO">
+      <location EndPos="120" StartPos="120" width="1"/>
+      <labl>Feelings interfered w. life, past 30 days (adults)</labl>
+      <txt><![CDATA[For sample adults who reported feeling sad, nervous, restless or fidgety, hopeless, worthless, or that everything was an effort at least "some of the time" during the past 30 days, AFEELINT1MO reports responses to the question, "Altogether, how much did these feelings interfere with your life or activities: a lot, some, a little, or not at all?" 
+
+The indicators of sample adults' feelings used to determine who was asked this question were based on variables from the Kessler 6 Scale (K6), which was developed by Ronald C. Kessler to measure nonspecific psychological distress over a 30-day reference period.  Kessler's instrument asks how often, during the past 30 days, the respondent felt: 
+
+So sad that nothing could cheer you up? (ASAD)
+
+Nervous? (ANERVOUS)
+
+Restless or fidgety? (ARESTLESS)
+
+Hopeless? (AHOPELESS)
+
+That everything was an effort? (AEFFORT)
+
+Worthless? (AWORTHLESS)
+For each of these questions, respondents selected one of the following responses listed on a flashcard: "none of the time," "a little of the time," "some of the time," "most of the time," "all of the time." 
+
+Interviewers began by noting, "We just talked about a number of feelings you had during the past 30 days."  Sample adults who responded "some of the time," "most of the time," or "all of the time" to any of these questions were asked the aforementioned question about how such feelings interfered with their life or activities.   This follow-up question was not part of the tool designed by Kessler to measure nonspecific psychological distress or severe mental illness.]]></txt>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>A lot</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Some</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>A little</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Not at all</labl>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Unknown-refused</labl>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>Unknown-not ascertained</labl>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>Unknown-don't know</labl>
+      </catgry>
+      <concept vocab="IPUMS">Adult Mental Health Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="AHOPELESS" dcml="0" files="ExtractData" intrvl="discrete" name="AHOPELESS">
+      <location EndPos="121" StartPos="121" width="1"/>
+      <labl>How often felt hopeless, past 30 days (adults)</labl>
+      <txt><![CDATA[AHOPELESS reports responses to the question, "During the past 30 days, how often did you feel hopeless?"   
+
+At the beginning of the section of the survey devoted to evaluating nonspecific psychological distress, interviewers stated, "Now I am going to ask you some questions about feelings you may have experienced over the past 30 days."  They then handed respondents a flashcard listing five categories (all of the time; most of the time; some of the time; a little of the time; none of the time), from which respondents were to select the appropriate response.  The Field Representatives Manuals for 1997-2000 directed the interviewer to "reread the question, emphasizing the wording of the answer categories," if the respondent gave an answer that did not match these categories.
+
+Related Variables
+
+AHOPELESS is one of a series of six variables whose responses can be summed as a scale measuring nonspecific psychological distress over a 30-day recall period.  This scale, developed by Ronald C. Kessler and known as the Kessler 6 Scale (K6), asks about six manifestations of nonspecific psychological distress.  
+&nbsp;Kessler's instrument asks how often, during the past 30 days, the respondent felt:
+
+So sad that nothing could cheer you up? (ASAD)
+
+Nervous? (ANERVOUS)
+
+Restless or fidgety? (ARESTLESS)
+
+Hopeless? (AHOPELESS)
+
+That everything was an effort? (AEFFORT)
+
+Worthless? (AWORTHLESS)
+As noted above, acceptable responses fell into five categories, ranging from "none of the time" to "all of the time."Scoring Variables&nbsp;Kessler recommends scoring the scale by assigning 0 to 4 points for each of these six questions, based on the reported frequency of the feelings (i.e., 0 for "none of the time"; 1 for "a little of the time"; 2 for "some of the time"; 3 for "most of the time"; and 4 for "all of the time").  The range for summed responses on the K6 Scale is thus 0 to 24, with 0 suggesting the lowest level of nonspecific psychological distress, and 24 suggesting the highest level of nonspecific psychological distress.  According to the scoring criteria proposed by Kessler, persons with a score of 13 or greater are likely to be experiencing severe mental illness.
+
+To assist researchers who intend to sum responses to the variables included in the K6 Scale, IPUMS NHIS assigns codes that are consistent with Kessler's advised scoring system (i.e., with "none of the time" coded as 0 and "all of the time" coded as 4).  To produce valid results, users must exclude not in universe cases (persons other than sample adults, code 6 in IPUMS NHIS) and unknown cases (codes 7, 8, and 9 in IPUMS NHIS) before summing the responses.Follow-up Questions&nbsp;As a follow-up to the K6 Scale questions, the NHIS included a question that was not part of Kessler's original survey instrument.   All sample adults who answered "some of the time," "most of the time," or "all of the time" to any of the six questions included in the Kessler 6 Scale were asked, "Altogether, how much did these feelings interfere with your life or activities: a lot, some, a little, or not at all?" (AFEELINT1MO).   In 1999, additional follow-up questions collected further information about how "these feelings" affected the person (see FBADHOWOFT, FBADMORE, FBADLESS, FBADUNABLE, and FBADCUTDOWN).]]></txt>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>None of the time</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>A little of the time</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Some of the time</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Most of the time</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>All of the time</labl>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Unknown-refused</labl>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>Unknown-not ascertained</labl>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>Unknown-don't know</labl>
+      </catgry>
+      <concept vocab="IPUMS">Adult Mental Health Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="ANERVOUS" dcml="0" files="ExtractData" intrvl="discrete" name="ANERVOUS">
+      <location EndPos="122" StartPos="122" width="1"/>
+      <labl>How often felt nervous, past 30 days (adults)</labl>
+      <txt><![CDATA[ANERVOUS reports responses to the question, "During the past 30 days, how often did you feel nervous?"   
+
+At the beginning of the section of the survey devoted to evaluating nonspecific psychological distress, interviewers stated, "Now I am going to ask you some questions about feelings you may have experienced over the past 30 days."  They then handed respondents a flashcard listing five categories (all of the time; most of the time; some of the time; a little of the time; none of the time), from which respondents were to select the appropriate response.  The Field Representative's Manuals for 1997-2000 directed the interviewer to "reread the question, emphasizing the wording of the answer categories," if the respondent gave an answer that did not match these categories.
+
+Related Variables
+
+ANERVOUS is one of a series of six variables whose responses can be summed as a scale measuring nonspecific psychological distress over a 30-day recall period.  This scale, developed by Ronald C. Kessler and known as the Kessler 6 Scale (K6), asks about six manifestations of nonspecific psychological distress.  
+&nbsp;Kessler's instrument asks how often, during the past 30 days, the respondent felt:
+
+So sad that nothing could cheer you up? (ASAD)
+
+Nervous? (ANERVOUS)
+
+Restless or fidgety? (ARESTLESS)
+
+Hopeless? (AHOPELESS)
+
+That everything was an effort? (AEFFORT)
+
+Worthless? (AWORTHLESS)
+As noted above, acceptable responses fell into five categories, ranging from "none of the time" to "all of the time."Scoring Variables&nbsp;Kessler recommends scoring the scale by assigning 0 to 4 points for each of these six questions, based on the reported frequency of the feelings (i.e., 0 for "none of the time"; 1 for "a little of the time"; 2 for "some of the time"; 3 for "most of the time"; and 4 for "all of the time").  The range for summed responses on the K6 Scale is thus 0 to 24, with 0 suggesting the lowest level of nonspecific psychological distress, and 24 suggesting the highest level of nonspecific psychological distress.  According to the scoring criteria proposed by Kessler, persons with a score of 13 or greater are likely to be experiencing severe mental illness.
+
+To assist researchers who intend to sum responses to the variables included in the K6 Scale, IPUMS NHIS assigns codes that are consistent with Kessler's advised scoring system (i.e., with "none of the time" coded as 0 and "all of the time" coded as 4).  To produce valid results, users must exclude not in universe cases (persons other than sample adults, code 6 in IHIS) and unknown cases (codes 7, 8, and 9 in IHIS) before summing the responses.Follow-up Questions&nbsp;As a follow-up to the K6 Scale questions, the NHIS included a question that was not part of Kessler's original survey instrument.   All sample adults who answered "some of the time," "most of the time," or "all of the time" to any of the six questions included in the Kessler 6 Scale were asked, "Altogether, how much did these feelings interfere with your life or activities: a lot, some, a little, or not at all?" (AFEELINT1MO).   In 1999, additional follow-up questions collected further information about how "these feelings" affected the person (see FBADHOWOFT, FBADMORE, FBADLESS, FBADUNABLE, and FBADCUTDOWN).]]></txt>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>None of the time</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>A little of the time</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Some of the time</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Most of the time</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>All of the time</labl>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Unknown-refused</labl>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>Unknown-not ascertained</labl>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>Unknown-don't know</labl>
+      </catgry>
+      <concept vocab="IPUMS">Adult Mental Health Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="ARESTLESS" dcml="0" files="ExtractData" intrvl="discrete" name="ARESTLESS">
+      <location EndPos="123" StartPos="123" width="1"/>
+      <labl>How often felt restless, past 30 days (adults)</labl>
+      <txt><![CDATA[For sample adults aged 18 and older, ARESTLESS reports responses to the question, "During the past 30 days, how often did you feel restless or fidgety?" 
+
+At the beginning of the section of the survey devoted to evaluating nonspecific psychological distress, interviewers stated, "Now I am going to ask you some questions about feelings you may have experienced over the past 30 days."  They then handed respondents a flashcard listing five categories (all of the time; most of the time; some of the time; a little of the time; none of the time), from which respondents were to select the appropriate response.  The Field Representative's Manuals for 1997-2000 directed the interviewer to "reread the question, emphasizing the wording of the answer categories," if the respondent gave an answer that did not match these categories.
+
+Related Variables
+
+ARESTLESS is one of a series of six variables whose responses can be summed as a scale measuring nonspecific psychological distress over a 30-day recall period.  This scale, developed by Ronald C. Kessler and known as the Kessler 6 Scale (K6), asks about six manifestations of nonspecific psychological distress.  
+&nbsp;Kessler's instrument asks how often, during the past 30 days, the respondent felt:
+
+So sad that nothing could cheer you up? (ASAD)
+
+Nervous? (ANERVOUS)
+
+Restless or fidgety? (ARESTLESS)
+
+Hopeless? (AHOPELESS)
+
+That everything was an effort? (AEFFORT)
+
+Worthless? (AWORTHLESS)
+As noted above, acceptable responses fell into five categories, ranging from "none of the time" to "all of the time."  
+
+Scoring Variables&nbsp;Kessler recommends scoring the scale by assigning 0 to 4 points for each of these six questions, based on the reported frequency of the feelings (i.e., 0 for "none of the time"; 1 for "a little of the time"; 2 for "some of the time"; 3 for "most of the time"; and 4 for "all of the time").  The range for summed responses on the K6 Scale is thus 0 to 24, with 0 suggesting the lowest level of nonspecific psychological distress, and 24 suggesting the highest level of nonspecific psychological distress.  According to the scoring criteria proposed by Kessler, persons with a score of 13 or greater are likely to be experiencing severe mental illness.
+
+To assist researchers who intend to sum responses to the variables included in the K6 Scale, IPUMS NHIS assigns codes that are consistent with Kessler's advised scoring system (i.e., with "none of the time" coded as 0 and "all of the time" coded as 4).  To produce valid results, users must exclude not in universe cases (persons other than sample adults, code 6 in IPUMS NHIS) and unknown cases (codes 7, 8, and 9 in IPUMS NHIS) before summing the responses.Related Variables&nbsp;As a follow-up to the K6 Scale questions, the NHIS included a question that was not part of Kessler's original survey instrument.   All sample adults who answered "some of the time," "most of the time," or "all of the time" to any of the six questions included in the Kessler 6 Scale were asked, "Altogether, how much did these feelings interfere with your life or activities: a lot, some, a little, or not at all?" (AFEELINT1MO).   In 1999, additional follow-up questions collected further information about how "these feelings" affected the person (see FBADHOWOFT, FBADMORE, FBADLESS, FBADUNABLE, and FBADCUTDOWN).]]></txt>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>None of the time</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>A little of the time</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Some of the time</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Most of the time</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>All of the time</labl>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Unknown-refused</labl>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>Unknown-not ascertained</labl>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>Unknown-don't know</labl>
+      </catgry>
+      <concept vocab="IPUMS">Adult Mental Health Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="ASAD" dcml="0" files="ExtractData" intrvl="discrete" name="ASAD">
+      <location EndPos="124" StartPos="124" width="1"/>
+      <labl>How often felt sad, past 30 days (adults)</labl>
+      <txt><![CDATA[ASAD reports responses to the question, "During the past 30 days, how often did you feel so sad that nothing could cheer you up?"  
+
+At the beginning of the section of the survey devoted to evaluating nonspecific psychological distress, interviewers stated, "Now I am going to ask you some questions about feelings you may have experienced over the past 30 days."  They then handed respondents a flashcard listing five categories (all of the time; most of the time; some of the time; a little of the time; none of the time), from which respondents were to select the appropriate response.  The Field Representative's Manuals for 1997 forward directed the interviewer to "reread the question, emphasizing the wording of the answer categories," if the respondent gave an answer that did not match these categories.
+
+Related Variables
+
+ASAD is one of a series of six variables whose responses can be summed as a scale measuring nonspecific psychological distress over a 30-day recall period.  This scale, developed by Ronald C. Kessler and known as the Kessler 6 Scale (K6), asks about six manifestations of nonspecific psychological distress.  
+&nbsp;Kessler's instrument asks how often, during the past 30 days, the respondent felt:
+
+So sad that nothing could cheer you up? (ASAD)
+
+Nervous? (ANERVOUS)
+
+Restless or fidgety? (ARESTLESS)
+
+Hopeless? (AHOPELESS)
+
+That everything was an effort? (AEFFORT)
+
+Worthless? (AWORTHLESS)
+As noted above, acceptable responses fell into five categories, ranging from "none of the time" to "all of the time."Scoring Variables&nbsp;Kessler recommends scoring the scale by assigning 0 to 4 points for each of these six questions, based on the reported frequency of the feelings (i.e., 0 for "none of the time"; 1 for "a little of the time"; 2 for "some of the time"; 3 for "most of the time"; and 4 for "all of the time").  The range for summed responses on the K6 Scale is thus 0 to 24, with 0 suggesting the lowest level of nonspecific psychological distress, and 24 suggesting the highest level of nonspecific psychological distress.  According to the scoring criteria proposed by Kessler, persons with a score of 13 or greater are likely to be experiencing severe mental illness.
+
+To assist researchers who intend to sum responses to the variables included in the K6 Scale, IPUMS NHIS assigns codes that are consistent with Kessler's advised scoring system (i.e., with "none of the time" coded as 0 and "all of the time" coded as 4).  To produce valid results, users must exclude not in universe cases (persons other than sample adults, code 6 in IPUMS NHIS) and unknown cases (codes 7, 8, and 9 in IPUMS NHIS) before summing the responses.Follow-up Questions&nbsp;As a follow-up to the K6 Scale questions, the NHIS included a question that was not part of Kessler's original survey instrument.   All sample adults who answered "some of the time," "most of the time," or "all of the time" to any of the six questions included in the Kessler 6 Scale were asked, "Altogether, how much did these feelings interfere with your life or activities: a lot, some, a little, or not at all?" (AFEELINT1MO).   In 1999, additional follow-up questions collected further information about how "these feelings" affected the person (see FBADHOWOFT, FBADMORE, FBADLESS, FBADUNABLE, and FBADCUTDOWN).]]></txt>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>None of the time</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>A little of the time</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Some of the time</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Most of the time</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>All of the time</labl>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Unknown-refused</labl>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>Unknown-not ascertained</labl>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>Unknown-don't know</labl>
+      </catgry>
+      <concept vocab="IPUMS">Adult Mental Health Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="AWORTHLESS" dcml="0" files="ExtractData" intrvl="discrete" name="AWORTHLESS">
+      <location EndPos="125" StartPos="125" width="1"/>
+      <labl>How often felt worthless, past 30 days (adults)</labl>
+      <txt><![CDATA[AWORTHLESS reports responses to the question, "During the past 30 days, how often did you feel worthless?"  
+
+The Field Representative's Manual for 1997-2000 stated that the meaning of "worthless" was respondent defined. At the beginning of the section of the survey devoted to evaluating nonspecific psychological distress, interviewers stated, "Now I am going to ask you some questions about feelings you may have experienced over the past 30 days."  They then handed respondents a flashcard listing five categories (all of the time; most of the time; some of the time; a little of the time; none of the time), from which respondents were to select the appropriate response.  The Manual for 1997-2000 directed the interviewer to "reread the question, emphasizing the wording of the answer categories," if the respondent gave an answer that did not match these categories.
+
+Related Variables
+
+AWORTHLESS is one of a series of six variables whose responses can be summed as a scale measuring nonspecific psychological distress over a 30-day recall period.  This scale, developed by Ronald C. Kessler and known as the Kessler 6 Scale (K6), asks about six manifestations of nonspecific psychological distress.  
+&nbsp;Kessler's instrument asks how often, during the past 30 days, the respondent felt:
+
+So sad that nothing could cheer you up? (ASAD)
+
+Nervous? (ANERVOUS)
+
+Restless or fidgety? (ARESTLESS)
+
+Hopeless? (AHOPELESS)
+
+That everything was an effort? (AEFFORT)
+
+Worthless? (AWORTHLESS)
+As noted above, acceptable responses fell into five categories, ranging from "none of the time" to "all of the time."Scoring Variables&nbsp;Kessler recommends scoring the scale by assigning 0 to 4 points for each of these six questions, based on the reported frequency of the feelings (i.e., 0 for "none of the time"; 1 for "a little of the time"; 2 for "some of the time"; 3 for "most of the time"; and 4 for "all of the time").  The range for summed responses on the K6 Scale is thus 0 to 24, with 0 suggesting the lowest level of nonspecific psychological distress, and 24 suggesting the highest level of nonspecific psychological distress.  According to the scoring criteria proposed by Kessler, persons with a score of 13 or greater are likely to be experiencing severe mental illness.
+
+To assist researchers who intend to sum responses to the variables included in the K6 Scale, IPUMS NHIS assigns codes that are consistent with Kessler's advised scoring system (i.e., with "none of the time" coded as 0 and "all of the time" coded as 4).  To produce valid results, users must exclude not in universe cases (persons other than sample adults, code 6 in IPUMS NHIS) and unknown cases (codes 7, 8, and 9 in IPUMS NHIS) before summing the responses.Follow-up Questions&nbsp;As a follow-up to the K6 Scale questions, the NHIS included a question that was not part of Kessler's original survey instrument.   All sample adults who answered "some of the time," "most of the time," or "all of the time" to any of the six questions included in the Kessler 6 Scale were asked, "Altogether, how much did these feelings interfere with your life or activities: a lot, some, a little, or not at all?" (AFEELINT1MO).   In 1999, additional follow-up questions collected further information about how "these feelings" affected the person (see FBADHOWOFT, FBADMORE, FBADLESS, FBADUNABLE, and FBADCUTDOWN).]]></txt>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>None of the time</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>A little of the time</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Some of the time</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Most of the time</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>All of the time</labl>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Unknown-refused</labl>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>Unknown-not ascertained</labl>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>Unknown-don't know</labl>
+      </catgry>
+      <concept vocab="IPUMS">Adult Mental Health Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+  </dataDscr>
+</codeBook>

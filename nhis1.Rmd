@@ -1,0 +1,56 @@
+---
+title: "Labor Market and Health with NHIS"
+author: "Elena Stolpovsky"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+  #  toc: true
+  #  toc_depth: 5
+    code_folding: hide
+bibliography: references.bib
+link-citations: true
+nocite: | 
+   @Stolpovsky_geography, @Stolpovsky_historical_unemployment
+---
+
+<base target="_top"/>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      message = FALSE,
+                      warning = FALSE)
+options(scipen = 999,
+        digits = 2,
+        tibble.print_max = Inf)
+
+```
+
+[<font size="4">EconBlog</font>](https://elenas70.github.io/econblog/)
+[<font size="4">`r icons::fontawesome("github")`</font>](https://github.com/elenas70/us_labor_market_and_COVID)
+[<font size="4">`r icons::fontawesome("linkedin")`</font>](https://www.linkedin.com/in/estolpovsky/)
+
+### Data and Methodology
+
+The data for this analysis come from the [Current Population Survey](https://cps.ipums.org/cps/) (CPS). CPS is a monthly survey run by the Census Bureau with questions about demographic and economic characteristics of the U.S. population. CPS is used to calculate the monthly federal statistics on unemployment. I obtain the data from the Integrated Public Use Microdata Series database [-@ipums2020]. 
+
+
+My sample consists of CPS monthly core employment data for January 2020–March 2021. Each sample includes individual and household weights, which allow inferences about the population from the samples. I discuss CPS weights and examine the weight distribution in the [Appendix](#weights).
+```{r include=FALSE}
+library(ipumsr)
+memory.limit(10000000)
+ddi <- read_ipums_ddi("nhis_00001.xml")
+data <- read_ipums_micro(ddi)
+```
+
+
+```{r}
+library(sjlabelled)
+library(tidyverse)
+library(kableExtra)
+library(formattable)
+library(purrr)
+library(zoo)
+
+data <- data %>%
+  remove_all_labels()
+```
